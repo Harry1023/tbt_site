@@ -73,14 +73,16 @@
             </h4>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <div class="card" id="couse1">
             <div class="image-content">
               <h4>Foundation Track</h4>
             </div>
             <p>
               Build essential trading & technical charting literacy. Weekly session plus practical day with live trading   
-   executions. A kickstart to your journey into the world of trading. 
+   executions. 
+   <br><br>
+   <b>Outcome: </b>A kickstart to your journey into the world of trading. 
             </p>
             <div class="btns-learn">
               <button class="Learn-btn1 fee-container">
@@ -101,22 +103,19 @@
             </div>
             <div class="duration text-center">
               <p>Duration: 03 Weeks</p>
-              <div class="fee-container">
-                Fees <span class="toggle-icon">+</span>
-              </div>
-              <div class="fee-content">
-                Fee: <span>Rs</span> 15,000
-              </div>
+              <button class="go-button"><i class="fa-solid fa-arrow-right"></i></button>
+
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <div class="card" id="couse1">
             <div class="image-content">
               <h4>Growth Track</h4>
             </div>
             <p>
              Transition learners from basic literacy to applied trading skills. Multiple weekly sessions plus practical days with live trading executions.
+           <br><br><b>Outcome:</b> Learners gain competence in applying strategies and preparing for advance trading.
             </p>
             <div class="btns-learn">
               <button class="Learn-btn2 fee-container">
@@ -139,23 +138,21 @@
             </div>
             <div class="duration text-center">
               <p>Duration: 01 Month</p>
-              <div class="fee-container">
-                Fees <span class="toggle-icon">+</span>
-              </div>
-              <div class="fee-content">
-                Fee: <span>Rs</span> 40,000
-              </div>
+             <button class="go-button"><i class="fa-solid fa-arrow-right"></i></button>
+
 
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-4">
           <div class="card" id="couse1">
             <div class="image-content">
               <h4>Master Track</h4>
             </div>
             <p>
               Structured Progression Toward Advanced Professional Trading.  Multiple weekly sessions plus practical days with live trading executions.
+<br><br>
+              <b>Outcome:</b> Students that position themselves as professional traders ready for certification or advancement.
             </p>
 
 
@@ -187,23 +184,24 @@
               </ul>
             </div>
             <div class="duration text-center">
-              <p>Duration: 02 Month</p>
-              <div class="fee-container">
-                Fees <span class="toggle-icon">+</span>
-              </div>
-              <div class="fee-content">
-                Fee: <span>Rs</span> 45,000
-              </div>
+              <p>Duration: 02 Months</p>
+        <button class="go-button"><i class="fa-solid fa-arrow-right"></i></button>
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-12">
           <div class="card" id="couse1">
+            <div class="row">
+            <div class="col-lg-4">
             <div class="image-content">
               <h4>Elite 1-1 Mentorship</h4>
             </div>
             <p>
-             Transition learners from basic literacy to applied trading skills. Multiple weekly sessions plus practical days with live trading executions.
+            Structured Progression Toward Advanced Professional Trading. Multiple weekly sessions plus practical days with live trading executions.
+            <br><br>
+             <b>Outcome:</b> Students achieve mastery, positioning themselves as professional traders ready for certification or advancement.
+             <br><br>
+             Covers Master Track Program & In-depth strategies
             </p>
             <div class="btns-learn">
            <button class="Learn-btn4 fee-container">
@@ -223,16 +221,15 @@
               </ul>
             </div>
             <div class="duration text-center">
-              <p>Duration: 01 Month</p>
-              <div class="fee-container">
-                Fees <span class="toggle-icon">+</span>
-              </div>
-              <div class="fee-content">
-                Fee: <span>Rs</span> 40,000
-              </div>
+              <p>Duration: Customized - No Time Barriers</p>
+       
+              <button class="go-button"><i class="fa-solid fa-arrow-right"></i></button>
 
             </div>
+
           </div>
+<div class="col-lg-4">RED</div></div>        
+        </div>
         </div>
       </div>
     </div>
@@ -275,93 +272,8 @@
 
   <!-- Form Start -->
 
-  <section class="teams-news mt-5">
-    <!-- <div class="blob"></div> -->
-    <h1 class="text-center text-white">MEET OUR TEAM</h1>
-    <div class="wrapper">
-      <div class="container">
-        <input type="radio" name="slide" id="c9" checked="">
-        <label for="c9" class="card">
-          <div class="row">
-            <div class="description">
-              <div class="decription-item">
-                <h4>Rayan Khan</h4>
-                <p>Founder</p>
-              </div>
-            </div>
-          </div>
-        </label>
-        <input type="radio" name="slide" id="c2">
-        <label for="c2" class="card">
-          <div class="row">
-            <div class="description">
-              <div class="decription-item">
-                <h4>Balaj Khan</h4>
-                <p>CEO &amp; Co-Founder</p>
-              </div>
-            </div>
-          </div>
-        </label>
-        <input type="radio" name="slide" id="c4">
-        <label for="c4" class="card">
-          <div class="row">
-            <div class="description">
-              <div class="decription-item">
-                <h4>Salman Riaz</h4>
-                <p>COO</p>
-              </div>
-            </div>
-          </div>
-        </label>
-        <input type="radio" name="slide" id="c8">
-        <label for="c8" class="card">
-          <div class="row">
-            <div class="description">
-              <div class="decription-item">
-                <h4>Farihaa Haider</h4>
-                <p>Deputy head of branch</p>
-              </div>
-            </div>
-          </div>
-        </label>
-        <!-- 
-          <input type="radio" name="slide" id="c1" />
-          <label for="c1" class="card card-6">
-            <div class="row">
-              <div class="description">
-                <div class="decription-item">
-                  <h4>Sauliha Munir</h4>
-                  <p>Customer Care Manager</p>
-                </div>
-              </div>
-            </div>
-          </label> -->
-      </div>
-    </div>
-  </section>
-
-  <!-- About button section -->
-
-  <section class="about-btn">
-    <div class="container">
-      <div class="content-about-btn">
-        <div class="content-about-heade d-flex justify-content-center">
-          <h4 class="w-75 mt-3">
-            Our experienced team of traders are eager to share their knowledge
-            and skills with new aspiring traders of the future.
-          </h4>
-        </div>
-
-        <a href="./aboutus">
-          <button class="btn">
-            Learn More About Us <i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- About button section End -->
+  
+ 
 
   <section id="reviews">
     <div class="container">
