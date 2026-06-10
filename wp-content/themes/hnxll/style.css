@@ -48,6 +48,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
 }
 
 
+.fineprint-header {font-size: 12px;}
+
+.disclaimer-button {
+  border: none;
+  background: transparent;
+  color: #FFFFFF;
+}
+
+
 
 /* Custom CSS HNXLL End */
 
@@ -272,7 +281,7 @@ p {
 }
 
 .footer {
-  background-color: #890000;
+  background-color: #14213d;
   padding: 50px 0;
   height: fit-content;
 }
@@ -357,7 +366,7 @@ body {
   height: auto;
 }
 .header .header-logo img {
-  width: 120px;
+  width: 220px;
 }
 .row.align-items-center.nav-full {
   padding-top: 20px;
@@ -1475,22 +1484,25 @@ section.Frequency-question {
   -webkit-box-shadow: 0 0 0 1000px #d02e33 inset;
   -webkit-text-fill-color: #fff !important;
 }
+#courseOutlineText4 ul,
 #courseOutlineText ul,
 #courseOutlineText2 ul,
 #courseOutlineText3 ul {
   line-height: 22px;
   list-style: circle;
 }
+#courseOutlineText4 ul li,
 #courseOutlineText ul li,
 #courseOutlineText2 ul li,
 #courseOutlineText3 ul li {
   font-size: 14px;
   border-bottom: 1px solid rgb(27 26 26);
 }
+#courseOutlineText4 ul li::marker,
 #courseOutlineText ul li::marker,
 #courseOutlineText2 ul li::marker,
 #courseOutlineText3 ul li::marker {
-  color: red;
+  color: var(--col2);
 }
 .container-1,
 .container-1 .card {
@@ -1639,8 +1651,7 @@ section.platform h1 {
   width: var(--size);
   height: var(--size);
   filter: blur(calc(var(--size) / 5));
-  background-image: linear-gradient(#ff0018, #ff0018);
-  animation: rotate var(--speed) var(--easing) alternate infinite;
+background-image: linear-gradient(to bottom, #ffd166, #fca311, #d98b00);  animation: rotate var(--speed) var(--easing) alternate infinite;
   border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
   opacity: 0.2;
   position: absolute;

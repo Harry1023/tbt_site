@@ -32,34 +32,37 @@
         <div class="row flex-column flex-md-row-reverse">
           <div class="col-lg-6 text-center">
             <div class="header-image">
-              <img src="./images/dollar-3d.png" id="first-show" alt="" style="display: none;">
-              <img src="./images/dolar.gif" id="second-show" alt="" style="">
+              <img src="<?php echo $turl; ?>/assets/chrome-bull2.png" id="first-show" alt="" style="display: none;">
+              <img src="<?php echo $turl; ?>/assets/chrome-bull2.png" id="second-show" alt="" style="">
             </div>
           </div>
           <div class="col-md-6 col-12 header-content">
             <div class="header-content1">
               <h1>Unlock Financial Freedom</h1>
               <p>
-                 Trading Curriculums designed to strengthen your market analysis, risk management, and execution discipline.
+                 Trading Curriculums designed to strengthen your market analysis & execution discipline.
               </p>
               <div class="btns-header">
                 <a href="#Frequency-question">
                   <button class="primary-btns1">Learn More</button>
                 </a>
                 <a href="./contact">
-                  <button class="primary-btns2">Enroll Now</button>
+                  <button class="primary-btns2">Join Now</button>
                 </a>
               </div>
+<br><br>
+              <!-- <p class="fineprint-header">This program is for educational purposes only and does not constitute financial advice. Past performance is not indicative of future results.</p> -->
             </div>
           </div>
         </div>
+       
       </div>
       <div class="gradient"></div>
       <div class="gradient2"></div>
     </div>
   </header>
 
-
+<br><br><br><br>
 
   <section class="Learn" id="Courses">
     <div class="container">
@@ -67,9 +70,9 @@
         <div class="content-learn text-center">
           <h1>RoadMap To Your Financial Freedom</h1>
           <div class="content-about-heade d-flex justify-content-center">
-            <h4 class="w-75">
-              With our comprehensive courses designed to teach trading from
-              scratch, and take you from a beginner to a complete professional
+            <h4 style="width: 85%;">
+              Our programs are designed to teach trading from
+              scratch, taking you from a beginner to a complete professional enabling you to Trade & Invest based on Technical Charts to any Capital Markets
             </h4>
           </div>
         </div>
@@ -111,7 +114,7 @@
         <div class="col-lg-4">
           <div class="card" id="couse1">
             <div class="image-content">
-              <h4>Growth Track</h4>
+              <h4>Growth<br> Track</h4>
             </div>
             <p>
              Transition learners from basic literacy to applied trading skills. Multiple weekly sessions plus practical days with live trading executions.
@@ -147,12 +150,12 @@
         <div class="col-lg-4">
           <div class="card" id="couse1">
             <div class="image-content">
-              <h4>Master Track</h4>
+              <h4>Master<br> Track</h4>
             </div>
             <p>
               Structured Progression Toward Advanced Professional Trading.  Multiple weekly sessions plus practical days with live trading executions.
 <br><br>
-              <b>Outcome:</b> Students that position themselves as professional traders ready for certification or advancement.
+              <b>Outcome:</b> Students achieve mastery, positioning themselves as professional traders ready for certification or advancement.
             </p>
 
 
@@ -194,7 +197,7 @@
             <div class="row">
             <div class="col-lg-4">
             <div class="image-content">
-              <h4>Elite 1-1 Mentorship</h4>
+              <h4>Elite 1-1<br> Mentorship</h4>
             </div>
             <p>
             Structured Progression Toward Advanced Professional Trading. Multiple weekly sessions plus practical days with live trading executions.
@@ -211,12 +214,10 @@
             </div>
             <div id="courseOutlineText4" class="mb-3" style="display: none">
               <ul>
-                <li>Foundation Track Program with expanded and detailed learning modules </li>
-                <li>Adapted Concepts from the CMT Program</li>
-                <li>Authentic Elements from ICT & SMC</li>
-                <li>Multiple Trading Strategies with trade plans</li>
-                <li>Q & A</li>
-                <li>Live Back testing</li>
+                <li>Certificate officially endorsed by the Testing Trade Board (TTB), Sindh Government.</li>
+                <li>Lifetime access to Premium alumni community group</li>
+                <li>Lifetime access to Guidance & Support</li>
+                <li>Internship at a Regulated Brokerage House</li>
     
               </ul>
             </div>
@@ -228,7 +229,16 @@
             </div>
 
           </div>
-<div class="col-lg-4">RED</div></div>        
+<div class="col-lg-4">
+<div style="width:100%; height: 100%; background: #dededf;"></div>
+</div>
+
+
+<div class="col-lg-4">
+<div style="width:100%; height: 100%; background: #dededf;"></div>
+</div>
+
+</div>        
         </div>
         </div>
       </div>
@@ -244,10 +254,9 @@
           <div class="content-Funded2">
             <div class="content-Funded">
               <h1>
-                No Investment? No Worries! We Help All Our Students Acquire
-                Fully
+                Learn to Read the Market by Mastering Your Trading
               </h1>
-              <h1><span>Funded Accounts</span></h1>
+              <h1><span>Psychology</span></h1>
               <p>
                 with trading capital that will enable you to trade without
                 using your own funds
@@ -290,7 +299,7 @@
           
           
           
-        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1125px, 0px, 0px); transition: all; width: 4129px;"><div class="owl-item cloned" style="width: 365.333px; margin-right: 10px;"><div class="item">
+            <div class="item">
             <div class="card">
               <div class="card-body">
                 <div class="header-card-rating d-flex justify-content-between align-items-center">
@@ -306,19 +315,17 @@
                   </div>
                 </div>
 
-                <img src="./images/line1.svg" alt="">
+                <img src="<?php echo $turl; ?>/assets/line1.svg" alt="">
                 <p>
                   I am incredibly impressed with the quality of education I
-                  received at Tradex's Forex trading course. The course
-                  material is well-organized, easy to understand, and packed
-                  with actionable strategies. What truly sets Tradex apart is
+                  received. The course material is well-organized, easy to understand, and packed
+                  with actionable strategies. What truly sets The Bulls Trading apart is
                   the personalized attention and feedback provided by the
                   instructors. They take the time to address each student's
                   questions and concerns, ensuring everyone progresses at
-                  their own pace. I am grateful for the invaluable skills and
-                  knowledge I've gained through Tradex's course
+                  their own pace. I am grateful for the knowledge I've gained through The Bulls Trading course
                 </p>
-                <img src="./images/line2.svg" class="pb-4" alt="">
+                <img src="<?php echo $turl; ?>/assets/line2.svg" class="pb-4" alt="">
                 <div class="auther">
                   <div class="auther-heading">
                     <h4>Ahsan Raza</h4>
@@ -330,474 +337,18 @@
                 </div>
               </div>
             </div>
-          </div></div><div class="owl-item cloned" style="width: 365.333px; margin-right: 10px;"><div class="item">
-            <div class="card">
-              <div class="card-body">
-                <div class="header-card-rating d-flex justify-content-between align-items-center">
-                  <div class="header-card-heading">
-                    <h1>4.5</h1>
-                  </div>
-                  <div class="head-card-rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                  </div>
-                </div>
-
-                <img src="./images/line1.svg" alt="">
-                <p>
-                  I can confidently say that Tradex offers an exceptional
-                  learning experience for anyone interested in mastering Forex
-                  trading. The instructors are not only experts in their field
-                  but also skilled educators who genuinely care about their
-                  students' success. The course is structured in a way that
-                  caters to different learning styles, ensuring everyone can
-                  grasp the concepts effectively.
-                </p>
-                <img src="./images/line2.svg" class="pb-4" alt="">
-                <div class="auther">
-                  <div class="auther-heading">
-                    <h4>Tayyaba Kokab</h4>
-                  </div>
-                  <div class="auther-details d-flex justify-content-between align-items-center">
-                    <p>Batch: 015</p>
-                    <p>Course: Standard Foxex</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></div><div class="owl-item cloned" style="width: 365.333px; margin-right: 10px;"><div class="item">
-            <div class="card">
-              <div class="card-body">
-                <div class="header-card-rating d-flex justify-content-between align-items-center">
-                  <div class="header-card-heading">
-                    <h1>5.0</h1>
-                  </div>
-                  <div class="head-card-rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                </div>
-
-                <img src="./images/line1.svg" alt="">
-                <p>
-                  Tradex's Forex trading course has proven to be a wise
-                  investment in my future. The knowledge and skills I've
-                  acquired have opened doors to opportunities I never thought
-                  possible. The ongoing support from the Tradex ensures that
-                  learning doesn't stop after the course ends. If you're
-                  serious about achieving financial independence through Forex
-                  trading, I wholeheartedly recommend Tradex as your partner
-                  in success
-                </p>
-                <img src="./images/line2.svg" class="pb-4" alt="">
-                <div class="auther">
-                  <div class="auther-heading">
-                    <h4>Azhar Bhatti</h4>
-                  </div>
-                  <div class="auther-details d-flex justify-content-between align-items-center">
-                    <p>Batch: 08</p>
-                    <p>Course: Standard Foxex</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></div><div class="owl-item active" style="width: 365.333px; margin-right: 10px;"><div class="item">
-            <div class="card">
-              <div class="card-body">
-                <div class="header-card-rating d-flex justify-content-between align-items-center">
-                  <div class="header-card-heading">
-                    <h1>5.0</h1>
-                  </div>
-                  <div class="head-card-rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                </div>
-
-                <img src="./images/line1.svg" alt="">
-                <p>
-                  Enrolling in Tradex's Forex trading course has been one of
-                  the best decisions I've ever made. The instructors are
-                  incredibly knowledgeable and supportive, guiding me through
-                  every step of the trading process. I've gained valuable
-                  insights and skills that have empowered me to make confident
-                  trading decisions. Highly recommend to anyone looking to
-                  delve into the world of Forex trading
-                </p>
-                <img src="./images/line2.svg" class="pb-4" alt="">
-                <div class="auther">
-                  <div class="auther-heading">
-                    <h4>Syed Muhammad Rafi</h4>
-                  </div>
-                  <div class="auther-details d-flex justify-content-between align-items-center">
-                    <p>Batch: 002</p>
-                    <p>Course: Standard Foxex</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></div><div class="owl-item active" style="width: 365.333px; margin-right: 10px;"><div class="item">
-            <div class="card">
-              <div class="card-body">
-                <div class="header-card-rating d-flex justify-content-between align-items-center">
-                  <div class="header-card-heading">
-                    <h1>4.5</h1>
-                  </div>
-                  <div class="head-card-rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                  </div>
-                </div>
-
-                <img src="./images/line1.svg" alt="">
-                <p>
-                  I cannot speak highly enough of the support and mentorship
-                  provided by Tradex throughout their Forex trading course.
-                  From day one, I felt like part of a supportive community of
-                  traders, all dedicated to each other's success. The
-                  instructors are not only experts in Forex trading but also
-                  fantastic mentors who genuinely want to see their students
-                  thrive. If you're serious about mastering Forex trading,
-                  look no further than Tradex
-                </p>
-                <img src="./images/line2.svg" class="pb-4" alt="">
-                <div class="auther">
-                  <div class="auther-heading">
-                    <h4>Muhammad Wasif</h4>
-                  </div>
-                  <div class="auther-details d-flex justify-content-between align-items-center">
-                    <p>Batch: 001</p>
-                    <p>Course: Standard Foxex</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></div><div class="owl-item active" style="width: 365.333px; margin-right: 10px;"><div class="item">
-            <div class="card">
-              <div class="card-body">
-                <div class="header-card-rating d-flex justify-content-between align-items-center">
-                  <div class="header-card-heading">
-                    <h1>5.0</h1>
-                  </div>
-                  <div class="head-card-rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                </div>
-
-                <img src="./images/line1.svg" alt="">
-                <p>
-                  I am incredibly impressed with the quality of education I
-                  received at Tradex's Forex trading course. The course
-                  material is well-organized, easy to understand, and packed
-                  with actionable strategies. What truly sets Tradex apart is
-                  the personalized attention and feedback provided by the
-                  instructors. They take the time to address each student's
-                  questions and concerns, ensuring everyone progresses at
-                  their own pace. I am grateful for the invaluable skills and
-                  knowledge I've gained through Tradex's course
-                </p>
-                <img src="./images/line2.svg" class="pb-4" alt="">
-                <div class="auther">
-                  <div class="auther-heading">
-                    <h4>Ahsan Raza</h4>
-                  </div>
-                  <div class="auther-details d-flex justify-content-between align-items-center">
-                    <p>Batch: 020</p>
-                    <p>Course: Standard Foxex</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></div><div class="owl-item" style="width: 365.333px; margin-right: 10px;"><div class="item">
-            <div class="card">
-              <div class="card-body">
-                <div class="header-card-rating d-flex justify-content-between align-items-center">
-                  <div class="header-card-heading">
-                    <h1>4.5</h1>
-                  </div>
-                  <div class="head-card-rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                  </div>
-                </div>
-
-                <img src="./images/line1.svg" alt="">
-                <p>
-                  I can confidently say that Tradex offers an exceptional
-                  learning experience for anyone interested in mastering Forex
-                  trading. The instructors are not only experts in their field
-                  but also skilled educators who genuinely care about their
-                  students' success. The course is structured in a way that
-                  caters to different learning styles, ensuring everyone can
-                  grasp the concepts effectively.
-                </p>
-                <img src="./images/line2.svg" class="pb-4" alt="">
-                <div class="auther">
-                  <div class="auther-heading">
-                    <h4>Tayyaba Kokab</h4>
-                  </div>
-                  <div class="auther-details d-flex justify-content-between align-items-center">
-                    <p>Batch: 015</p>
-                    <p>Course: Standard Foxex</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></div><div class="owl-item" style="width: 365.333px; margin-right: 10px;"><div class="item">
-            <div class="card">
-              <div class="card-body">
-                <div class="header-card-rating d-flex justify-content-between align-items-center">
-                  <div class="header-card-heading">
-                    <h1>5.0</h1>
-                  </div>
-                  <div class="head-card-rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                </div>
-
-                <img src="./images/line1.svg" alt="">
-                <p>
-                  Tradex's Forex trading course has proven to be a wise
-                  investment in my future. The knowledge and skills I've
-                  acquired have opened doors to opportunities I never thought
-                  possible. The ongoing support from the Tradex ensures that
-                  learning doesn't stop after the course ends. If you're
-                  serious about achieving financial independence through Forex
-                  trading, I wholeheartedly recommend Tradex as your partner
-                  in success
-                </p>
-                <img src="./images/line2.svg" class="pb-4" alt="">
-                <div class="auther">
-                  <div class="auther-heading">
-                    <h4>Azhar Bhatti</h4>
-                  </div>
-                  <div class="auther-details d-flex justify-content-between align-items-center">
-                    <p>Batch: 08</p>
-                    <p>Course: Standard Foxex</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></div><div class="owl-item cloned" style="width: 365.333px; margin-right: 10px;"><div class="item">
-            <div class="card">
-              <div class="card-body">
-                <div class="header-card-rating d-flex justify-content-between align-items-center">
-                  <div class="header-card-heading">
-                    <h1>5.0</h1>
-                  </div>
-                  <div class="head-card-rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                </div>
-
-                <img src="./images/line1.svg" alt="">
-                <p>
-                  Enrolling in Tradex's Forex trading course has been one of
-                  the best decisions I've ever made. The instructors are
-                  incredibly knowledgeable and supportive, guiding me through
-                  every step of the trading process. I've gained valuable
-                  insights and skills that have empowered me to make confident
-                  trading decisions. Highly recommend to anyone looking to
-                  delve into the world of Forex trading
-                </p>
-                <img src="./images/line2.svg" class="pb-4" alt="">
-                <div class="auther">
-                  <div class="auther-heading">
-                    <h4>Syed Muhammad Rafi</h4>
-                  </div>
-                  <div class="auther-details d-flex justify-content-between align-items-center">
-                    <p>Batch: 002</p>
-                    <p>Course: Standard Foxex</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></div><div class="owl-item cloned" style="width: 365.333px; margin-right: 10px;"><div class="item">
-            <div class="card">
-              <div class="card-body">
-                <div class="header-card-rating d-flex justify-content-between align-items-center">
-                  <div class="header-card-heading">
-                    <h1>4.5</h1>
-                  </div>
-                  <div class="head-card-rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star-half-stroke"></i>
-                  </div>
-                </div>
-
-                <img src="./images/line1.svg" alt="">
-                <p>
-                  I cannot speak highly enough of the support and mentorship
-                  provided by Tradex throughout their Forex trading course.
-                  From day one, I felt like part of a supportive community of
-                  traders, all dedicated to each other's success. The
-                  instructors are not only experts in Forex trading but also
-                  fantastic mentors who genuinely want to see their students
-                  thrive. If you're serious about mastering Forex trading,
-                  look no further than Tradex
-                </p>
-                <img src="./images/line2.svg" class="pb-4" alt="">
-                <div class="auther">
-                  <div class="auther-heading">
-                    <h4>Muhammad Wasif</h4>
-                  </div>
-                  <div class="auther-details d-flex justify-content-between align-items-center">
-                    <p>Batch: 001</p>
-                    <p>Course: Standard Foxex</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></div><div class="owl-item cloned" style="width: 365.333px; margin-right: 10px;"><div class="item">
-            <div class="card">
-              <div class="card-body">
-                <div class="header-card-rating d-flex justify-content-between align-items-center">
-                  <div class="header-card-heading">
-                    <h1>5.0</h1>
-                  </div>
-                  <div class="head-card-rating">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                  </div>
-                </div>
-
-                <img src="./images/line1.svg" alt="">
-                <p>
-                  I am incredibly impressed with the quality of education I
-                  received at Tradex's Forex trading course. The course
-                  material is well-organized, easy to understand, and packed
-                  with actionable strategies. What truly sets Tradex apart is
-                  the personalized attention and feedback provided by the
-                  instructors. They take the time to address each student's
-                  questions and concerns, ensuring everyone progresses at
-                  their own pace. I am grateful for the invaluable skills and
-                  knowledge I've gained through Tradex's course
-                </p>
-                <img src="./images/line2.svg" class="pb-4" alt="">
-                <div class="auther">
-                  <div class="auther-heading">
-                    <h4>Ahsan Raza</h4>
-                  </div>
-                  <div class="auther-details d-flex justify-content-between align-items-center">
-                    <p>Batch: 020</p>
-                    <p>Course: Standard Foxex</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+          </div>
+          
+          
+          
       </div>
     </div>
   </section>
 
   <!-- Tetimonal End -->
 
-  <section class="Form-section" id="from-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 col-12">
-          <div class="content-form-section">
-            <h1>You Are one step away to earn in dollars</h1>
-          </div>
-        </div>
-        <div class="col-lg-7 col-12 d-flex justify-content-center">
-          <div class="form-emailjs w-100">
-            <form id="form" method="post" action="https://api.rootsbmd.com/public/SaveContactForm">
-              <input type="hidden" name="email_to" value="admin@tradexpk.com">
-              <input type="hidden" name="subject" value="Enquiry Email | Trade X PK">
-              <div class="row g-3">
-                <div class="col-lg-6">
-                  <div class="field">
-                    <label for="Name">Name</label>
-                    <input type="text" name="name" id="Name" class="form-control" required="">
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="field">
-                    <label for="Email">Email</label>
-                    <input type="email" name="email" id="Email" class="form-control" required="">
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="field">
-                    <label for="City">City</label>
-                    <input type="text" name="city" id="City" class="form-control">
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="field">
-                    <label for="Contact">Contact Number</label>
-                    <input type="text" name="contact" id="Contact" class="form-control">
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="field">
-                    <label for="WhatsApp">WhatsApp Number</label>
-                    <input type="tel" name="whatsApp" id="WhatsApp" class="form-control">
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="field">
-                    <label for="Courses">Courses</label>
-                    <select id="Courses" name="courses" class="form-select" required="">
-                      <option disabled="" selected="" value="">Select Courses</option>
-                      <option value="Strandard Forex">Strandard Forex</option>
-                      <option value="Forex Plus">Forex Plus</option>
-                      <option value="Forex Pro">Forex Pro</option>
-                      <option value="Free Demo">Free Demo</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <div class="field">
-                    <label for="Message">Message</label>
-                    <input type="text" name="message" id="Message" class="form-control">
-                  </div>
-                </div>
-              </div>
 
-              <div class="Form-button mt-4 text-center">
-                <input type="submit" id="button" class="btn btn-primary px-4" value="Send Email">
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- Form End -->
 
@@ -1166,6 +717,25 @@
         if (scrollPosition > owlStageOuterTop - windowHeight) {
           $("#courseOutlineText3").slideUp(500);
           $(".Learn-btn3 i").removeClass("fa-minus").addClass("fa-plus");
+        }
+      });
+    });
+  </script>
+    <script>
+    $(document).ready(function () {
+      $(".Learn-btn4").click(function () {
+        $("#courseOutlineText4").slideToggle(500);
+        $(this).find("i").toggleClass("fa-plus fa-minus");
+      });
+
+      $(window).scroll(function () {
+        var owlStageOuterTop = $(".owl-stage-outer").offset().top;
+        var windowHeight = $(window).height();
+        var scrollPosition = $(this).scrollTop();
+
+        if (scrollPosition > owlStageOuterTop - windowHeight) {
+          $("#courseOutlineText4").slideUp(500);
+          $(".Learn-btn4 i").removeClass("fa-minus").addClass("fa-plus");
         }
       });
     });

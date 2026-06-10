@@ -72,8 +72,8 @@ $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
                   <a href="./contact">Contact Us</a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="./contact#from-section" class="primary-btns2 text-white">
-                    Free Demo
+                  <a href="./portal/join-now.php" class="primary-btns2 text-white">
+                    Join Now
                   </a>
                 </li>
               </ul></div>
@@ -97,18 +97,18 @@ echo "
 
 <ul class='list-inline navigation-list'>
                 <li class='list-inline-item active'>
-                  <a href='./aboutus'>Our Management</a>
+                  <a href='./our-management'>Our Management</a>
                 </li>
                 <li class='list-inline-item'>
-                  <a href='./courses'>Our Programs</a>
+                  <a href='./programs'>Our Programs</a>
                 </li>
                 <li class='list-inline-item'>
-                  <a href='./job'>CMT ® Prep Courses</a>
+                  <a href='./cmt'>CMT ® Prep Courses</a>
                 </li>
     
                 <li class='list-inline-item'>
-                  <a href='./contact#from-section' class='primary-btns2 text-white'>
-                    Free Demo
+                  <a href='./portal/join-now.php' class='primary-btns2 text-white'>
+                    Join Now
                   </a>
                 </li>
               </ul>
