@@ -22,6 +22,10 @@ function _addtoHead() {
  function _addFiles() {
  global $turl;
    wp_enqueue_script('BalanceJS', $turl . "/balanced.js", true);
+   wp_enqueue_script('JQuery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js', true);
+   wp_enqueue_script('Bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js', 'true');
+   wp_enqueue_script('AOSJs', 'https://unpkg.com/aos@2.3.1/dist/aos.js', true);
+   wp_enqueue_script('AppJS', $turl. '/App.js', true);
 }
 
 
