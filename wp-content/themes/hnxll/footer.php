@@ -29,7 +29,22 @@
         <div class="col">
           <!-- Changed from col to col-md-12 -->
           <div class="image-footer-logo">
-            <img src="./images/logo.png" alt="">
+            
+<?php
+$footer_logo = get_theme_mod('footer_logo');
+
+if ($footer_logo) :
+?>
+    <img
+        src="<?php echo esc_url($footer_logo); ?>"
+        alt="<?php bloginfo('name'); ?>"
+        class="footer-logo"
+    >
+<?php endif; ?>
+
+
+
+
           </div>
         </div>
       </div>

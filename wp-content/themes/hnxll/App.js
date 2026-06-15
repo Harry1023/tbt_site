@@ -1,3 +1,22 @@
+// Custom Menu HNXLL Start
+
+jQuery(document).ready(function($) {
+    $('.hamburger-container').click(function() {
+        $('.mobile-menu').toggleClass('mobile-view');
+    });
+
+    $('.mobile-close').click(function() {
+        $('.mobile-menu').toggleClass('mobile-view');
+    });
+});
+
+
+
+
+// Custom Menu HNXLL End
+
+
+
 // Fee Toggle STart
 
 $(document).ready(function () {

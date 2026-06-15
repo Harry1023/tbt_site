@@ -106,6 +106,7 @@ ul {
 :root {
   --col1: black;
   --col2: #fca311;
+  --col3: #14213d;
 }
 a {
   color: #fff;
@@ -281,7 +282,7 @@ p {
 }
 
 .footer {
-  background-color: #14213d;
+  background-color: var(--col3);
   padding: 50px 0;
   height: fit-content;
 }

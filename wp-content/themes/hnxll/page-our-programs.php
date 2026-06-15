@@ -1,24 +1,65 @@
 <?php include "widgets/tradingview-tape.php"; ?>
 <?php include "components/navigation.php"; ?>
 
-
-    <header class="header header-course">
-        <div class="header-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 header-content-about text-start">
-                        <div class="header-content-about1" data-aos="fade-up" data-aos-duration="1500">
-                            <p class="header-content-about-btn">Courses</p>
-                            <h2>Forex Mastery Starts Here!</h2>
-                            <p class="header-description">Unlock the keys to
-                                Forex mastery through our expert-led courses
-                                and resources.</p>
-                        </div>
-                    </div>
+  <header class="header header-main modal-blur-background">
+    <div class="header-bottom">
+      <div class="container">
+        <div class="row align-items-center nav-full">
+          <div class="col-lg-2 col-md-12 col-sm-12">
+            <div class="navbar-respon d-flex justify-content-center">
+              <div class="hamburger d-block d-lg-none">
+                <div class="hamburger-container">
+                  <span></span>
+                  <span></span>
+                  <span></span>
                 </div>
+              </div>
+              <div class="header-logo">
+                <a href="/">
+                  <img src="<?php echo $image[0]; ?>" alt="">
+                </a>
+              </div>
             </div>
+          </div>
+
+          <div class="col-lg-10 d-none d-lg-block">
+            <div class="bottom-row">
+              <?php navigationCall('desktop'); ?>
+            </div>
+          </div>
         </div>
-    </header>
+        <div class="row flex-column flex-md-row-reverse">
+          <div class="col-lg-6 text-center">
+            <div class="header-image">
+              <img src="<?php echo $turl; ?>/assets/chrome-bear.png" id="first-show" alt="" style="display: none;">
+              <img src="<?php echo $turl; ?>/assets/chrome-bear.png" id="second-show" alt="" style="">
+            </div>
+          </div>
+          <div class="col-md-6 col-12 header-content">
+            <div class="header-content1">
+              <h1>OUR PROGRAMS</h1>
+
+              <div class="btns-header">
+                <a href="#Frequency-question">
+                  <button class="primary-btns1">Learn More</button>
+                </a>
+                <a href="./contact">
+                  <button class="primary-btns2">Join Now</button>
+                </a>
+              </div>
+<br><br>
+              <!-- <p class="fineprint-header">This program is for educational purposes only and does not constitute financial advice. Past performance is not indicative of future results.</p> -->
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="gradient"></div>
+      <div class="gradient2"></div>
+    </div>
+  </header>
+
+<br><br><br><br>
 
 
 <!----- START COURSES  ----->
@@ -214,47 +255,22 @@
         <div class="container">
             <div class="row text-white">
                 <div class="col-lg-6">
-                    <p class="header-content-about-btn">FEATURES</p>
-                    <h1>Our Platform Feature</h1>
+                    <p class="header-content-about-btn">AFFILIATIONS</p>
+                    <h1>Our Affiliations</h1>
                 </div>
                 <div class="col-lg-6 d-flex align-items-end">
-                    <p>Our platform features cutting edge education, and
-                        trade management tools that will help you stay
-                        ahead in the evolving landscape of the forex market
-                        and earn in global currencies.</p>
+                    <p>Our programs Affiliated and Endorsed by Trade Testing Board, Government of Sindh (Pakistan). <br>
+                  <br>(Sindh Technical Education & Vocational Training Authority STEVTA)</p>
                 </div>
             </div>
 
             <div class="row mt-5">
-                <div class="col-lg-6 mb-3">
-
-                    <div class="images-about-feature">
-                        <img src="./images/about-img6.png" alt class="img-feature1">
-                        <h3>Earn in Global Currency</h3>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-3">
-                    <div class="img-2-feature">
-                        <!-- <img src="./images/about-img2.png" alt> -->
-                        <div class="edge">
-                            <h3>Cutting-Edge Education</h3>
-                            <p>Our curriculum is continuously updated to
-                                reflect
-                                the ever-evolving landscape of the forex
-                                market,
-                                ensuring that our students stay ahead of the
-                                curve.</p>
-                            <div class="btn btn-edge">
-                                <a href="./contact">Enroll Now</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
+      
             </div>
 
-            <div class="row mt-5">
+
+
+        <!----    <div class="row mt-5">
                 <div class="col-lg-6">
                     <div class="card">
                         <h1>Tradex Management Features</h1>
@@ -300,7 +316,7 @@
 
                     </div>
 
-                </div>
+                </div>---->
             </div>
         </div>
     </section>
@@ -366,6 +382,25 @@
             });
         });
     </script>
+    <script>
+    $(document).ready(function () {
+      $(".Learn-btn4").click(function () {
+        $("#courseOutlineText4").slideToggle(500);
+        $(this).find("i").toggleClass("fa-plus fa-minus");
+      });
+
+      $(window).scroll(function () {
+        var owlStageOuterTop = $(".owl-stage-outer").offset().top;
+        var windowHeight = $(window).height();
+        var scrollPosition = $(this).scrollTop();
+
+        if (scrollPosition > owlStageOuterTop - windowHeight) {
+          $("#courseOutlineText4").slideUp(500);
+          $(".Learn-btn4 i").removeClass("fa-minus").addClass("fa-plus");
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>

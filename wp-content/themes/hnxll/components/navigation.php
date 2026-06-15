@@ -44,10 +44,7 @@ $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
   <!-- MOBILE-MENU START -->
   <div class="mobile-menu">
     <div class="mobile-close">
-      <a href="home">
-        <img src="images/logof.png" alt="" width="60%">
-      </a>
-      <a href="javascript:void(0)" id="menu-close"><i class="fa fa-times"></i></a>
+      <a id="menu-close"><i class="fa fa-times" style="color: #FFF;"></i></a>
     </div>
     <div class="mobile-menu-body" id="mobile-menu-body"><ul class="list-inline navigation-list">
                 <li class="list-inline-item active">
@@ -100,7 +97,7 @@ echo "
                   <a href='./our-management'>Our Management</a>
                 </li>
                 <li class='list-inline-item'>
-                  <a href='./programs'>Our Programs</a>
+                  <a href='./our-programs'>Our Programs</a>
                 </li>
                 <li class='list-inline-item'>
                   <a href='./cmt'>CMT ® Prep Courses</a>
