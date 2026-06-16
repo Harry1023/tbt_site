@@ -57,11 +57,12 @@ if ($footer_logo) :
               <div class="col-md-12 col-xs-6 col-sm-6">
                 <ul>
                   <li>
-                    <h4>Regional Office</h4>
+                    <h4>Regional Offices</h4>
                     </li>
                     <li>
-                        <a href="https://maps.app.goo.gl/b7yQrQUWnREwcNnz9"><i class="fa-solid fa-location-dot"></i> Suite 504 Fifth Floor, Rim Jhim Mall, Gulshan Iqbal Block 6, Karachi</a>
-                    </li>
+                        <a href="https://share.google/BjSLDr0MLoe1v7nKC"><i class="fa-solid fa-location-dot"></i> Suite 504 Fifth Floor, Rim Jhim Mall, Gulshan Iqbal Block 6, Karachi</a></li>
+                    
+                    <li><i class="fa-solid fa-location-dot"></i> <a href="https://share.google/u7dupomwuf5GcyXKI">1st Floor, Com3 Tower, Shahrah-e-Firdousi, Block 6 Clifton, Karachi</li></a>
                     
                     
                     <li><a href="tel:+923306886537"><i class="fa-solid fa-phone"></i> +92 330 6886537

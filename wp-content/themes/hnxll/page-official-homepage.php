@@ -230,12 +230,12 @@
 
           </div>
 <div class="col-lg-4">
-<div style="width:100%; height: 100%; background: #dededf;"></div>
+<div style="width:100%; height: 100%; background-image: url(<?php echo $turl; ?>/assets/btg1.png); background-size: cover;"></div>
 </div>
 
 
 <div class="col-lg-4">
-<div style="width:100%; height: 100%; background: #dededf;"></div>
+<div style="width:100%; height: 100%; background-image: url(<?php echo $turl; ?>/assets/btg2.png); background-size: cover;"></div>
 </div>
 
 </div>        
