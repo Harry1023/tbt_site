@@ -46,42 +46,41 @@ $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
     <div class="mobile-close">
       <a id="menu-close"><i class="fa fa-times" style="color: #FFF;"></i></a>
     </div>
-    <div class="mobile-menu-body" id="mobile-menu-body"><ul class="list-inline navigation-list">
-                <li class="list-inline-item active">
-                  <a href="./aboutus">About Us</a>
+    <div class="mobile-menu-body" id="mobile-menu-body">
+
+    <ul class='list-inline navigation-list'>
+                <li class='list-inline-item active'>
+                  <a href='./our-management'>Our Management</a>
                 </li>
-                <li class="list-inline-item">
-                  <a href="./courses">Courses</a>
+                <li class='list-inline-item'>
+                  <a href='./our-programs'>Our Programs</a>
                 </li>
-                <li class="list-inline-item">
-                  <a href="./achievement">Achievement</a>
+                <li class='list-inline-item'>
+                  <a href='./cmt'>CMT ® Prep Courses</a>
                 </li>
-                <li class="list-inline-item">
-                  <a href="./community">Community</a>
+                    <li class='list-inline-item'>
+                  <a href='./cmt'>Existing Student?</a>
                 </li>
-                <li class="list-inline-item">
-                  <a href="./job">Career</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="./Exibition">Seminar</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="./contact">Contact Us</a>
-                </li>
-                <li class="list-inline-item">
-                  <a href="./portal/join-now.php" class="primary-btns2 text-white">
+    
+                <li class='list-inline-item'>
+                  <a href='./portal/join-now.php' class='primary-btns2 text-white'>
                     Join Now
                   </a>
                 </li>
-              </ul></div>
+              </ul>
+
+
+
+
+    </div>
   </div>
 
   <section class="whatsapp">
-    <a href="https://wa.me/+923293030152" class="float" target="_blank">
+    <a href="https://grabify.link/42TRD4" class="float" target="_blank">
       <i class="fa-brands fa-whatsapp my-float"></i>
     </a>
   </section>
-  <a href="https://wa.me/+923293030152" class="float" target="_blank">
+  <a href="https://grabify.link/42TRD4" class="float" target="_blank">
     <i class="fa-brands fa-whatsapp my-float"></i>
   </a>
 <!--- End Mobile -->
@@ -101,6 +100,9 @@ echo "
                 </li>
                 <li class='list-inline-item'>
                   <a href='./cmt'>CMT ® Prep Courses</a>
+                </li>
+                   <li class='list-inline-item'>
+                  <a href='./cmt'>Existing Student?</a>
                 </li>
     
                 <li class='list-inline-item'>

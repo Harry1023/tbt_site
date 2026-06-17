@@ -10,10 +10,60 @@ jQuery(document).ready(function($) {
     });
 });
 
-
-
-
 // Custom Menu HNXLL End
+
+
+
+// Toggle Programs Button HNXLL Start
+
+$(document).ready(function () {
+
+  $(".Learn-btn1").click(function () {
+    $("#courseOutlineText").slideToggle(500);
+    $(this).find("i").toggleClass("fa-plus fa-minus");
+  });
+
+  $(".Learn-btn2").click(function () {
+    $("#courseOutlineText2").slideToggle(500);
+    $(this).find("i").toggleClass("fa-plus fa-minus");
+  });
+
+  $(".Learn-btn3").click(function () {
+    $("#courseOutlineText3").slideToggle(500);
+    $(this).find("i").toggleClass("fa-plus fa-minus");
+  });
+
+  $(".Learn-btn4").click(function () {
+    $("#courseOutlineText4").slideToggle(500);
+    $(this).find("i").toggleClass("fa-plus fa-minus");
+  });
+
+  $(window).scroll(function () {
+    var owlStageOuterTop = $(".owl-stage-outer").offset().top;
+    var windowHeight = $(window).height();
+    var scrollPosition = $(this).scrollTop();
+
+    if (scrollPosition > owlStageOuterTop - windowHeight) {
+      $("#courseOutlineText").slideUp(500);
+      $(".Learn-btn1 i").removeClass("fa-minus").addClass("fa-plus");
+
+      $("#courseOutlineText2").slideUp(500);
+      $(".Learn-btn2 i").removeClass("fa-minus").addClass("fa-plus");
+
+      $("#courseOutlineText3").slideUp(500);
+      $(".Learn-btn3 i").removeClass("fa-minus").addClass("fa-plus");
+
+      $("#courseOutlineText4").slideUp(500);
+      $(".Learn-btn4 i").removeClass("fa-minus").addClass("fa-plus");
+    }
+  });
+
+});
+
+
+// Toggle Programs Button HNXLL End
+
+
 
 
 

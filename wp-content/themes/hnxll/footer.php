@@ -1,12 +1,12 @@
 
   <footer class="footer">
     <div class="footer-top-content">
-      <h1>Reserve Your Seat Now</h1>
+      <h1>Take The Next Step Today</h1>
       <div class="btn-footer-top text-center">
-        <a href="./contact">
+        <a href="our-programs">
           <button class="btn">Learn More</button>
         </a>
-        <a href="./contact">
+        <a href="join-now">
           <button class="btn">Join Now</button>
         </a>
       </div>
@@ -79,7 +79,7 @@ if ($footer_logo) :
           </div>
         </div>
         <div class="col-md-8">
-<iframe src="https://www.google.com/maps/d/embed?mid=1p5ai1iS5p2oStRnbGrZDAPHFDg1RMxw&amp;ehbc=2E312F&amp;noprof=1" width="100%" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1TcEGjvL0BX_i5BAPrqnQkQ24u5LLXFc&ehbc=2E312F&noprof=1" width="100%" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
       <div class="row pt-5">
@@ -102,7 +102,7 @@ if ($footer_logo) :
       <hr>
       <div class="row">
         <h5 class="text-white text-center">
-          The Bulls Trading © 2026 • All Rights Reserved
+          The Bulls Trading © <?php echo wp_date('Y'); ?> • All Rights Reserved
         </h5>
       </div>
     </div>
