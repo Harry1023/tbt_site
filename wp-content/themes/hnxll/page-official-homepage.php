@@ -66,12 +66,34 @@
 
 
 
-<!----- START COURSES  ----->
-<br><br><br><br>
-<?php get_template_part("template-parts/programs"); ?>
+<!----- START COURSES  
+<br><br><br><br> ----->
+<?php // get_template_part("template-parts/programs"); ?>
 <!----- END COURSE ------->
 
+<br><br><br><br>
+<section class="extra_text">
 
+<div class="container text-white text-center">
+
+<div class="row justify-content-center">
+<h1 class="mb-4"><b>Beyond Traditional Trading Education</b></h1>
+<h4 class="w-85">Our mentorship sessions go far beyond <span style="color: var(--col2);">ordinary classroom teaching</span>. We adopt a high‑level consulting approach, blending practical application with advanced strategies. This ensures that every student gains deeper knowledge, real‑world exposure, and the confidence to excel in professional trading.</h4>
+</div>
+
+
+       <div class="mt-4 btns-header justify-content-center">
+                <a href="#Frequency-question">
+                  <button class="primary-btns1">Learn More</button>
+                </a>
+                <a href="./contact">
+                  <button class="primary-btns2">Join Now</button>
+                </a>
+              </div>
+
+</div>
+
+</section>
 
 
 

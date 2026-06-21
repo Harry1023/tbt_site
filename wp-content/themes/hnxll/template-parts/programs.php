@@ -1,4 +1,6 @@
 
+  <?php global $turl;?>
+  
   <section class="Learn" id="Courses">
     <div class="container">
       <div class="row">
